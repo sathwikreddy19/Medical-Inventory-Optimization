@@ -1,4 +1,4 @@
-Medical Inventory Optimization
+**Medical Inventory Optimization**
 
 Medical Inventory Optimization is a healthcare analytics project designed to improve medicine availability, reduce patient bounce rates, analyze pharmaceutical sales and returns, and support better inventory decisions. The project uses Python, SQL, Excel, and Power BI to analyze real medical billing and drug-transaction data.
 
@@ -407,5 +407,5 @@ The dataset includes a Patient_ID column. Publish only anonymized, synthetic, or
 Author
 Sathwik Reddy Chepyala
 360 Digi Img
-GitHub
+
 
