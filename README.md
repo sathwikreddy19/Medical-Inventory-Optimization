@@ -12,7 +12,7 @@ Industry: Healthcare and hospitals
 Department: Inventory management
 Project type: Data analytics and business intelligence
 
-Business Objectives
+**Business Objectives**
 
 Monitor medicine stock levels and identify low-stock items.
 
@@ -30,7 +30,7 @@ Support the business targets of reducing bounce rate by at least 30% and increas
 
 The percentages and revenue figures above are business targets defined for the project, not claimed production results.
 
-Tools and Technologies
+**Tools and Technologies**
 
 Tool
 
@@ -66,7 +66,7 @@ The cleaned Excel workbook contains 14,192 transaction records across 14 columns
 
 Column
 
-Description
+**Description**
 
 Typeofsales
 
@@ -124,11 +124,7 @@ SubCat1
 
 Additional product classification
 
-Project Files
-
-File
-
-Purpose
+**Project Files**
 
 Cleaned_Medical_Inventory_Data (1).xlsx
 
@@ -190,8 +186,7 @@ Dashboard development – Created a Power BI dashboard with KPI cards, charts, t
 
 Business recommendations – Identified medicines requiring reorder action and areas where inventory planning could be improved.
 
-Key Performance Indicators
-
+**Key Performance Indicators**
 Total sales and department-wise sales
 
 Monthly sales trends
@@ -210,7 +205,7 @@ Inventory-related cost and sales value
 
 Stock balances, expiry dates, reorder thresholds, and supplier lead times require additional source data and should be treated as future analysis opportunities when those fields are unavailable.
 
-Analysis Performed
+**Analysis Performed**
 
 Compared medicine quantities, sales values, and return patterns.
 
@@ -246,7 +241,7 @@ Drill-down views for detailed analysis.
 
 Project Structure
 
-360 DIGI TMG PROJECT/
+**360 DIGI TMG PROJECT/**
 ├── Cleaned_Medical_Inventory_Data (1).xlsx
 ├── medical_inventory_analysis_script.py.py
 ├── Medical_Inventory_SQL_Preprocessing.sql
@@ -262,7 +257,7 @@ Project Structure
 
 
 
-Python Analysis
+**Python Analysis**
 
 The Python script:
 
@@ -294,7 +289,7 @@ df = df.rename(
     }
 )
 
-SQL Analysis
+**SQL Analysis**
 
 The SQL script includes:
 
@@ -318,8 +313,7 @@ Monthly sales trend analysis.
 
 Adapt the SQL to your database engine before execution. The workbook uses DrugName, while the SQL file refers to Drug_Name; duplicate-removal and date-extraction syntax may also require adjustment.
 
-How to Run the Project
-
+**How to Run the Project
 1. Clone the repository
 
 git clone <https://github.com/sathwikreddy19/Medical-Inventory-Optimization/edit/main/README.md>
@@ -356,7 +350,7 @@ Open medical inventory.pibx.pbix using Microsoft Power BI Desktop and refresh th
 Import the dataset into a table named medical_inventory, adjust the SQL syntax and column names for your database, and execute Medical_Inventory_SQL_Preprocessing.sql.
 
 
-Key Insights
+**Key Insights**
 
 The analysis is intended to help stakeholders:
 
@@ -386,7 +380,7 @@ Track supplier lead time and fulfillment rate regularly.
 
 Apply FEFO (First Expired, First Out) for medicines with expiry dates.
 
-Future Enhancements
+**Future Enhancements**
 
 Add machine-learning-based demand forecasting.
 
